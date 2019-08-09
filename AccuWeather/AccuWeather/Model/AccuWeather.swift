@@ -1,5 +1,5 @@
 //
-//  Minimum.swift
+//  AccuWeather.swift
 //  AccuWeather
 //
 //  Created by Furkan Beyhan on 6.03.2019.
@@ -8,8 +8,7 @@
 
 import Foundation
 
-class Minimum : Codable{
-    
-    let Value : Double
-    
+struct AccuWeather : Codable {
+    let Headline : Headline
+    let DailyForecasts : [DailyForecasts]    
 }

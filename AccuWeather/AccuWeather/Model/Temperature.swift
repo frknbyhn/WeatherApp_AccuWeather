@@ -1,5 +1,5 @@
 //
-//  Headline.swift
+//  Temperature.swift
 //  AccuWeather
 //
 //  Created by Furkan Beyhan on 7.03.2019.
@@ -8,8 +8,8 @@
 
 import Foundation
 
-class Headline : Codable {
+struct Temperature : Codable{
     
-    let Text : String
+    let Minimum : Minimum
     
 }

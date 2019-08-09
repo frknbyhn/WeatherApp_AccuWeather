@@ -8,12 +8,11 @@
 
 import Foundation
 
-class DailyForecasts : Codable {
-    
+struct DailyForecasts : Codable {
+    // 2019-08-09T07:00:00+03:00
+    // TODO: Convert to date object
     let Date : String
     let Temperature : Temperature
     let Day : Day
     let Night : Night
-    
-    
 }
