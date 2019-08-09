@@ -8,8 +8,6 @@
 
 import Foundation
 
-class Night : Codable {
-    
+struct Night : Codable {
     let IconPhrase : String
-
 }
